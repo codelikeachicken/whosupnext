@@ -1,0 +1,30 @@
+{
+  "name": "whosupnext",
+  "version": "1.0.0",
+  "description": "App to track team rotations",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codelikeachicken/whosupnext.git"
+  },
+  "keywords": [
+    "families",
+    "groups",
+    "teams",
+    "rotation",
+    "tracking"
+  ],
+  "author": "Michelle Edmondson @ codelikeachicken.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codelikeachicken/whosupnext/issues"
+  },
+  "homepage": "https://github.com/codelikeachicken/whosupnext#readme",
+  "devDependencies": {
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3"
+  }
+}
