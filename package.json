@@ -2,9 +2,10 @@
   "name": "whosupnext",
   "version": "1.0.0",
   "description": "App to track team rotations",
-  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,9 @@
   },
   "homepage": "https://github.com/codelikeachicken/whosupnext#readme",
   "devDependencies": {
-    "light-server": "^2.5.1",
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0",
+    "lodash": "^4.17.10",
     "vue": "^2.5.16",
     "vue-cli": "^2.9.6",
     "webpack": "^4.11.1",
