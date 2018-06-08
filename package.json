@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/codelikeachicken/whosupnext#readme",
   "devDependencies": {
+    "light-server": "^2.5.1",
+    "vue": "^2.5.16",
+    "vue-cli": "^2.9.6",
     "webpack": "^4.11.1",
     "webpack-cli": "^3.0.3"
   }
